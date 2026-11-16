@@ -1,0 +1,108 @@
+[gd_scene format=3 uid="uid://c5cxn5yvquy2w"]
+
+[ext_resource type="Script" uid="uid://msiaroai4thg" path="res://hud.gd" id="1_37p78"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_i2arf"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hnu2s"]
+bg_color = Color(0.627451, 0, 0.2, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 30
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_hvuor"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ge2aw"]
+bg_color = Color(0.62825394, 0, 0.2021096, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 20
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_6cps6"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dl73t"]
+
+[node name="HUD" type="Control" unique_id=1214999696]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_37p78")
+
+[node name="PlayerHealth" type="ProgressBar" parent="." unique_id=760564656]
+layout_mode = 0
+offset_left = 42.0
+offset_top = 81.0
+offset_right = 457.0
+offset_bottom = 137.0
+theme_override_styles/background = SubResource("StyleBoxEmpty_i2arf")
+theme_override_styles/fill = SubResource("StyleBoxFlat_hnu2s")
+value = 100.0
+show_percentage = false
+
+[node name="Label" type="Label" parent="PlayerHealth" unique_id=1616356832]
+layout_mode = 0
+offset_left = 306.0
+offset_top = 63.0
+offset_right = 392.0
+offset_bottom = 95.0
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 23
+text = "Player"
+uppercase = true
+
+[node name="EnemyHealth" type="ProgressBar" parent="." unique_id=1288180956]
+layout_mode = 0
+offset_left = 717.0
+offset_top = 84.0
+offset_right = 1136.0
+offset_bottom = 142.0
+theme_override_colors/font_color = Color(0.9518278, 0.94831795, 0.9462431, 1)
+theme_override_styles/background = SubResource("StyleBoxEmpty_hvuor")
+theme_override_styles/fill = SubResource("StyleBoxFlat_ge2aw")
+step = 1.0
+value = 100.0
+show_percentage = false
+
+[node name="Label" type="Label" parent="EnemyHealth" unique_id=1277805437]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 64.0
+offset_right = 108.0
+offset_bottom = 96.0
+theme_override_colors/font_color = Color(1, 0.03529412, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 23
+theme_override_styles/normal = SubResource("StyleBoxEmpty_6cps6")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_dl73t")
+text = "Player 2"
+uppercase = true
+
+[node name="Ult Bar" type="ProgressBar" parent="." unique_id=617869853]
+layout_mode = 0
+offset_left = 61.0
+offset_top = 148.0
+offset_right = 341.0
+offset_bottom = 175.0
+
+[node name="EnemyUlt" type="ProgressBar" parent="." unique_id=637911882]
+layout_mode = 0
+offset_left = 832.0
+offset_top = 154.0
+offset_right = 1114.0
+offset_bottom = 181.0
