@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://c0hkdo7ru1qnn"
-path="res://.godot/imported/🔥 Epic Battle Music (No Copyright) Dragon Castle by @Makai-symphony 🇯🇵.wav-2a26321dc16aafdab3ea3a7e4ac25c59.sample"
+path="res://.godot/imported/🔥 Epic Battle Music (No Copyright) Dragon Castle by @Makai-symphony 🇯🇵.wav-2a35f653944d9e5e0bd82a5fc57fdfae.sample"
 
 [deps]
 
-source_file="res://🔥 Epic Battle Music (No Copyright) Dragon Castle by @Makai-symphony 🇯🇵.wav"
-dest_files=["res://.godot/imported/🔥 Epic Battle Music (No Copyright) Dragon Castle by @Makai-symphony 🇯🇵.wav-2a26321dc16aafdab3ea3a7e4ac25c59.sample"]
+source_file="res://audio/🔥 Epic Battle Music (No Copyright) Dragon Castle by @Makai-symphony 🇯🇵.wav"
+dest_files=["res://.godot/imported/🔥 Epic Battle Music (No Copyright) Dragon Castle by @Makai-symphony 🇯🇵.wav-2a35f653944d9e5e0bd82a5fc57fdfae.sample"]
 
 [params]
 

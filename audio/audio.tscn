@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://bun5kvhbn5hs7"]
+
+[ext_resource type="AudioStream" uid="uid://dmxwqm3lb7rxe" path="res://Assets/audio/zapsplat_foley_jacket_rain_very_thin_impact_punch_004_110503.wav" id="1_5tuxm"]
+[ext_resource type="AudioStream" uid="uid://c0hkdo7ru1qnn" path="res://Assets/audio/🔥 Epic Battle Music (No Copyright) Dragon Castle by @Makai-symphony 🇯🇵.wav" id="1_rqear"]
+[ext_resource type="Script" uid="uid://ba8r3gitc1qya" path="res://audio/audio.gd" id="1_snds3"]
+[ext_resource type="AudioStream" uid="uid://b41omaacr51ly" path="res://Assets/audio/explosion.wav" id="2_snds3"]
+[ext_resource type="AudioStream" uid="uid://bxt8okx4bai6a" path="res://audio/zapsplat_impacts_stones_pile_feet_jump_onto_003_114771.wav" id="5_6yp2d"]
+
+[node name="Audio" type="Node" unique_id=84513026]
+script = ExtResource("1_snds3")
+
+[node name="HitSound" type="AudioStreamPlayer" parent="." unique_id=127800530]
+stream = ExtResource("1_5tuxm")
+
+[node name="LifeLostSound" type="AudioStreamPlayer" parent="." unique_id=1027276712]
+stream = ExtResource("2_snds3")
+
+[node name="Music" type="AudioStreamPlayer" parent="." unique_id=620201279]
+stream = ExtResource("1_rqear")
+volume_db = -39.699
+autoplay = true
+
+[node name="JumpSound" type="AudioStreamPlayer" parent="." unique_id=149196539]
+stream = ExtResource("5_6yp2d")
+volume_db = -24.299

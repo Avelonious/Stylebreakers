@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://dmxwqm3lb7rxe"
-path="res://.godot/imported/zapsplat_foley_jacket_rain_very_thin_impact_punch_004_110503.wav-580d30d31f1fd79db3ec9290aa75929b.sample"
+path="res://.godot/imported/zapsplat_foley_jacket_rain_very_thin_impact_punch_004_110503.wav-5853370ca2bbdff34c092900dadd18dc.sample"
 
 [deps]
 
-source_file="res://zapsplat_foley_jacket_rain_very_thin_impact_punch_004_110503.wav"
-dest_files=["res://.godot/imported/zapsplat_foley_jacket_rain_very_thin_impact_punch_004_110503.wav-580d30d31f1fd79db3ec9290aa75929b.sample"]
+source_file="res://audio/zapsplat_foley_jacket_rain_very_thin_impact_punch_004_110503.wav"
+dest_files=["res://.godot/imported/zapsplat_foley_jacket_rain_very_thin_impact_punch_004_110503.wav-5853370ca2bbdff34c092900dadd18dc.sample"]
 
 [params]
 
