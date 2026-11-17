@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c0hkdo7ru1qnn"
+path="res://.godot/imported/🔥 Epic Battle Music (No Copyright) Dragon Castle by @Makai-symphony 🇯🇵.wav-2a26321dc16aafdab3ea3a7e4ac25c59.sample"
+
+[deps]
+
+source_file="res://🔥 Epic Battle Music (No Copyright) Dragon Castle by @Makai-symphony 🇯🇵.wav"
+dest_files=["res://.godot/imported/🔥 Epic Battle Music (No Copyright) Dragon Castle by @Makai-symphony 🇯🇵.wav-2a26321dc16aafdab3ea3a7e4ac25c59.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=2
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
